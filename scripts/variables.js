@@ -8,3 +8,9 @@ producto = "Monitor de 19 pulgadas";
 
 console.log(typeof producto);
 console.log(producto);
+
+//Variables con let
+let producto01 = "Monitor de 18 pulgadas";
+console.log(producto01);
+producto01 = "Monitor de 17 ";
+console.log(producto01);
