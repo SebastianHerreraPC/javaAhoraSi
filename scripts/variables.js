@@ -14,3 +14,9 @@ let producto01 = "Monitor de 18 pulgadas";
 console.log(producto01);
 producto01 = "Monitor de 17 ";
 console.log(producto01);
+
+//variables con const
+
+const producto02 = "Monitor de 30 pulgadas";
+// no se pueden reasignar los const tienen que tener valor si o si
+console.log(producto02);
