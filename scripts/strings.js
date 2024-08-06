@@ -3,6 +3,13 @@ const producto = 'Monitor de 20"';
 const producto2 = String("monitor 24 pulgadas");
 const producto3 = new String("Monitor de 25 '24' ");
 
-console.log(producto);
-console.log(producto2);
-console.log(producto3);
+const product = 'Monitor 20"';
+
+console.log(product);
+//saber los caracteres de los strings
+console.log(product.length);
+//en que posicion esta la palabra segun el string
+console.log(product.indexOf("Monitor"));
+//Para saber si lo incluye, es util en buscadores
+console.log(product.includes("Monitor"));
+console.log(product.includes("monitor")); //este es false por las minusculas
