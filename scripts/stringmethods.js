@@ -11,3 +11,16 @@ console.log(producto.slice(0, 10));
 
 //alternativa a slice
 console.log(producto.substring(0, 10));
+
+//.repeat para repetir una cadena de texto
+const texto = "Producto en promo ".repeat(3);
+console.log(texto);
+console.log(`${producto} ${texto}!!!`);
+
+//split para  dividir
+
+const actividad = "aprender js moderno";
+console.log(actividad.split(" "));
+
+const hobbies = "Leer, programar, bailar, dormir, estudiar";
+console.log(hobbies.split(","));
