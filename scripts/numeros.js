@@ -3,10 +3,6 @@ const numero1 = 30;
 const numero2 = 20;
 const numero3 = 20.5;
 
-console.log(numero1);
-console.log(numero2);
-console.log(numero3);
-
 //operaciones basicas
 
 let resultado;
@@ -21,8 +17,6 @@ resultado = numero1 * numero2;
 //residuo
 resultado = numero1 % numero2;
 
-console.log(resultado);
-
 let numero;
 //redondear hacia arriba
 da = Math.ceil(2.1);
@@ -36,4 +30,15 @@ da = Math.max(54, 3, 135, 46, 7, 8);
 da = Math.random();
 //aleatorios dentro de un rango
 da = Math.floor(Math.random() * 30);
-console.log(da);
+
+// orden de operaciones
+
+let resultados;
+resultados = 20 + 30 * 2;
+resultados = (20 + 30) * 2;
+
+//ejemplo de carrito con descuento
+
+resultados = (10 + 20 + 30 + 40) * 0.2;
+
+console.log(resultados);
