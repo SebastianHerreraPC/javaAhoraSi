@@ -1,5 +1,12 @@
 body {
-  background-color: #3a1835;
+  background-color: #f4f6e6;
+  color: black;
 }
 .header {
+  border: 1px solid rebeccapurple;
+  min-height: 720px;
+  max-height: 800px;
+}
+.nav__link {
+  color: black;
 }
