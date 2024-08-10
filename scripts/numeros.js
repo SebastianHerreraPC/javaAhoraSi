@@ -42,3 +42,10 @@ resultados = (20 + 30) * 2;
 resultados = (10 + 20 + 30 + 40) * 0.2;
 
 console.log(resultados);
+
+//mayores y menores
+const numeros = 20;
+const numeros0 = 30;
+
+console.log(numeros < numeros0);
+console.log(numeros > numeros0);
