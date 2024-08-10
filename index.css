@@ -3,10 +3,28 @@ body {
   color: black;
 }
 .header {
-  border: 1px solid rebeccapurple;
+  border: 1px solid red;
   min-height: 720px;
   max-height: 800px;
 }
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid red;
+}
+.nav__logo {
+  height: 50px;
+  width: 50px;
+}
+.nav__links {
+  display: flex;
+  margin-right: 30px;
+  gap: 30px;
+  list-style: none;
+}
 .nav__link {
+  text-decoration: none;
+
   color: black;
 }
