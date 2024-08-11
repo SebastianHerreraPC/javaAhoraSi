@@ -5,7 +5,7 @@ const producto = {
   precio: 200,
   disponible: true,
 };
-//extraje el valor de el nombre y luego lo puse en variable
+//extraje el valor de el objeto y variable y luego lo puse en variable
 // const nombre = producto.nombre;
 // console.log(nombre);
 
