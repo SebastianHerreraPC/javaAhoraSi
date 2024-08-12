@@ -25,7 +25,7 @@ const producto3 = {
   nombre: "Tablet",
   precio: 400,
 };
-
+//con el unshift pone el objeto nuevo al inicio de el array
 carrito.unshift(producto3);
 
 console.table(carrito);
