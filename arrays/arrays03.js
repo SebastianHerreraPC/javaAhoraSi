@@ -1,4 +1,4 @@
-const meses = ["Enero", "Febrero", "Marzo", "Junio", "Julio"];
+const meses = ["Enero", "Febrero", "Marzo", "Junio", "Julio", "Agosto"];
 
 console.table(meses);
 //conocer cuanto mide el array
@@ -18,5 +18,5 @@ for(valor donde va a empezar,cuantas veces se va a iterar,de cuanto en cuanto se
 */
 
 for (let i = 0; i < meses.length; i++) {
-  console.log(i);
+  console.log(meses[i]);
 }
