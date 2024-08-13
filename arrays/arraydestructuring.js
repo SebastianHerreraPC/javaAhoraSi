@@ -12,4 +12,6 @@ console.log(disponible);
 
 const numeros = [10, 20, 30, 40, 50];
 const [, , c] = numeros;
+const [primero, ...segundo] = numeros;
 console.log(c);
+console.log(segundo);
