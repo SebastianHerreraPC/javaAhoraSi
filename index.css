@@ -1,20 +1,23 @@
 body {
-  background-color: #f4f6e6;
   color: black;
+  background-color: #a9a9a9;
 }
 .header {
   min-height: 720px;
   max-height: 800px;
   position: relative;
+  background-color: #fffded;
+  background-image: url("data:image/svg+xml,%3Csvg width='12' height='24' viewBox='0 0 12 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.15'%3E%3Cpath d='M2 0h2v12H2V0zm1 20c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM9 8c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm-1 4h2v12H8V12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 .header__img {
   top: 150px;
   position: absolute;
   right: 40px;
+  border-radius: 20%;
 }
 .nav {
   display: flex;
-  margin-top: 10px;
+  padding-top: 10px;
   justify-content: space-between;
   align-items: center;
 }
@@ -26,13 +29,21 @@ body {
 .nav__links {
   display: flex;
   margin-right: 40px;
-  gap: 30px;
+
   list-style: none;
 }
+
 .nav__link {
   text-decoration: none;
-
   color: black;
+  width: 100%;
+  padding: 3px 40px 0;
+}
+.nav__link:hover {
+  text-decoration: none;
+  color: white;
+  border-bottom: 5px solid #eec1a0;
+  background-color: #deb394;
 }
 .header__title {
   margin: 250px 0 0 40px;
@@ -40,6 +51,9 @@ body {
 }
 .header__description {
   margin: 20px 0 0 40px;
+  width: 280px;
   font-size: 2em;
   color: #a9a9a9;
+  padding-bottom: 5px;
+  border-bottom: 5px solid #eec1a0;
 }
