@@ -1,6 +1,8 @@
+@import url(/blocks/caracteristicas.css);
+
 body {
   color: black;
-  background-color: #a9a9a9;
+  background-color: #deb394;
 }
 .header {
   min-height: 720px;
@@ -56,4 +58,7 @@ body {
   color: #a9a9a9;
   padding-bottom: 5px;
   border-bottom: 5px solid #eec1a0;
+}
+.gramatica {
+  background-color: white;
 }
