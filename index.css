@@ -6,20 +6,28 @@ body {
   border: 1px solid red;
   min-height: 720px;
   max-height: 800px;
+  position: relative;
+}
+.header__img {
+  top: 150px;
+  position: absolute;
+  right: 40px;
 }
 .nav {
   display: flex;
+  margin-top: 10px;
   justify-content: space-between;
   align-items: center;
   border: 1px solid red;
 }
 .nav__logo {
+  margin-left: 40px;
   height: 50px;
   width: 50px;
 }
 .nav__links {
   display: flex;
-  margin-right: 30px;
+  margin-right: 40px;
   gap: 30px;
   list-style: none;
 }
@@ -27,4 +35,13 @@ body {
   text-decoration: none;
 
   color: black;
+}
+.header__title {
+  margin: 250px 0 0 40px;
+  font-size: 4em;
+}
+.header__description {
+  margin: 20px 0 0 40px;
+  font-size: 2em;
+  color: #a9a9a9;
 }
