@@ -5,3 +5,21 @@
 
   background-color: #deb394;
 }
+
+.caracteristicas {
+  height: 720px;
+}
+
+.main__titles {
+  display: flex;
+  margin: 50pxauto;
+  justify-content: center;
+  font-size: 4rem;
+}
+.cards__container {
+  margin: auto 40px;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  border: 1px solid rebeccapurple;
+}
