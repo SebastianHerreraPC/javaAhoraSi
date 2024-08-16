@@ -13,3 +13,13 @@ console.log(product.indexOf("Monitor"));
 //Para saber si lo incluye, es util en buscadores
 console.log(product.includes("Monitor"));
 console.log(product.includes("monitor")); //este es false por las minusculas
+
+//concatenar strings
+
+let nombre = "Sebas";
+let apellido = "Herrera";
+let saludo = "Hola mi nombre es " + nombre + " " + apellido;
+console.log(saludo);
+
+let nuevoSaludo = `Hola mi nombre es ${nombre} ${apellido}`;
+console.log(nuevoSaludo);
