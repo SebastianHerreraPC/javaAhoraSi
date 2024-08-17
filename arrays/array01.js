@@ -13,3 +13,4 @@ const ejemploCompuesto = [true, "Hola", ["a", "b", "c"]];
 console.log(ejemploCompuesto);
 //conocer la longitud
 console.log(ejemploCompuesto.length);
+console.log(ejemploCompuesto[1]);
