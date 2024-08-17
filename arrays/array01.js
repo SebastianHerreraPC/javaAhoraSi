@@ -7,3 +7,9 @@ const meses = new Array("Enero", "Febrero", "Marzo");
 console.log(numeros); //3
 
 console.log(meses);
+
+const ejemploCompuesto = [true, "Hola", ["a", "b", "c"]];
+
+console.log(ejemploCompuesto);
+//conocer la longitud
+console.log(ejemploCompuesto.length);
