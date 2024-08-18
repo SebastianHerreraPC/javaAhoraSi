@@ -1,6 +1,19 @@
+//Es una coleccion de llaves valores
+
 const nombre = "monitor";
 const precio = 300;
 const disponible = true;
+
+const persona = {
+  name: "Sebastian",
+  surname: "Herrera",
+  age: 23,
+  hobbies: ["correr", "estudiar"],
+  soltero: true,
+  contacto: {
+    correo: "correo@ejemplo.com",
+  },
+};
 
 // un objeto agrupa todo en una variable se usa las { nombreVariable: valor }
 
