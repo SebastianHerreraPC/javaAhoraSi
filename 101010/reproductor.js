@@ -51,12 +51,19 @@ function renderAdded() {
 //aun que se llame varias veces reemplaza el contenido y solo se pone una vez, entonces para hacer que no se eliminen las otras canciones solo se añade un
 //operador de codigo en la guncion, en este caso sera el +=
 function addSong() {
-  songsContainer.innerHTML += `
+  let artist = document.querySelector(".input__text_type_artist");
+  let song = document.querySelector(".input__text_type_song");
+  songsContainer.insertAdjacentHTML(
+    "beforeend",
+    `
     <div class="song">
-    <h4 class="song__artist">The Cars</h4>
-    <p class="song__title">Drive</p>
+    <h4 class="song__artist">${artist.value}</h4>
+    <p class="song__title">${song.value}</p>
     <button class="song__like"></button>
-    </div>`;
+    </div>`
+  );
+  artist.value = "";
+  song.value = "";
   renderAdded();
 }
 renderAdded();
@@ -67,3 +74,7 @@ renderAdded();
 
 addButton.addEventListener("click", addSong);
 //la inscripcion de no hay canciones sigue ahi y debe desaparecer cuando ya haya canciones entonces se agrega con el classList.add() o el .remove, ve a la linea 33 de la funcion
+//InsertAdjacentHTML e insertAdjacentText nos permiten añadir nuevos elementos o texto al codigo sin perder los elementos anterirores.
+//se reemplazo el innerHTML por insertAdjacentHTML
+
+console.log(artist, song);
